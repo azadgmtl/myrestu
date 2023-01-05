@@ -1,0 +1,280 @@
+@media (max-width: 1200px)
+{
+    section
+    {
+        padding: 3rem 5%;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 991px)
+{
+    section
+    {
+        padding: 3rem 3rem;
+    }
+    
+    html
+    {
+        font-size: 50%;
+    }
+
+    #home .slide .content h3
+    {
+        font-size: 13vw;
+    }
+
+    
+    .food_preview_container .food_preview
+    {
+        width: 38rem;
+        height: 67rem;
+    }
+}
+
+
+@media (max-width: 800px)
+{
+    #menu_bars
+    {
+        display: inline-block;
+    }
+
+
+    .header .navbar
+    {
+        position: absolute;
+        top: 100%;
+        left: 3%;
+        right: 3%;
+        background-color: #fbf7f7;
+        border-top: .3rem solid #aaa;
+        border-radius: 5px 5px 2px 2px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .navbar a
+    {
+        display: block;
+        margin: 25px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        top: initial;
+        bottom: 6rem;
+    }
+
+    #about .content h3
+    {
+        font-size: 34px;
+    }
+
+    #about .content p
+    {
+        font-size: 16px;
+    }
+
+    #about .content .about_btn a
+    {
+        font-size: 20px;
+        padding: 6px 18px;
+    }
+
+    .section_heading span
+    {
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+
+    .section_heading h3
+    {
+        font-size: 36px;
+    }
+
+    #food .slide h3
+    {
+        font-size: 30px;
+    }
+    
+    #food .slide span
+    {
+        font-size: 24px;
+    }
+
+    .food_preview_container .food_preview h3
+    {
+        font-size: 28px;
+    }
+
+    .food_preview_container .food_preview .ratings i
+    {
+        font-size: 17px;
+    }
+
+    .food_preview_container .food_preview p
+    {
+        font-size: 16px;
+    }
+
+    .food_preview_container .food_preview span
+    {
+        font-size: 18px;
+    }
+
+    .food_preview_container .food_preview .preview_btn a
+    {
+        font-size: 20px;
+        padding: 6px 19px;
+    }
+
+    .food_preview_container .food_preview
+    {
+        width: 38rem;
+        height: 64rem;
+    }
+
+    #menu .slide h2
+    {
+        font-size: 33px;
+    }
+
+    #menu .slide .box_container .box .box_info h3
+    {
+        font-size: 25px;
+    }
+
+    #menu .slide .box_container .box .box_info p
+    {
+        font-size: 16px;
+    }
+
+    #menu .slide .box_container .box span
+    {
+        font-size: 19px;
+    }
+
+    #menu .slide .box_container .box
+    {
+        flex-flow: column;
+        text-align: center;
+    }
+
+    #order form .form_box_container .form_box .input_box input,
+    #order form .form_box_container .form_box .input_box textarea
+    {
+        font-size: 16px;
+    }
+
+    #order form .form_box_container .form_box .input_box label
+    {
+        font-size: 19px;
+    }
+
+    .input_btn .btn
+    {
+        padding: 6px 18px;
+        font-size: 18px;
+    }
+
+    #blogs .slide .image span
+    {
+        font-size: 1.7rem;
+    }
+
+    #blogs .slide .blog_content .icon a
+    {
+        font-size: 1.4rem;
+    }
+
+    #blogs .slide .blog_content .title
+    {
+        font-size: 2.3rem;
+    }
+
+    #blogs .slide .blog_content .blog_btn
+    {
+        font-size: 19px;
+        padding: 6px 19px;
+    }
+
+
+    .footer_icons .icon i
+    {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        background: #cd9452;
+        color: #fff;
+        margin-bottom: 20px;
+        line-height: 60px;
+        font-size: 23px;
+    }
+
+    
+.footer_icons .icon h3
+    {
+        font-size: 21px;
+    }
+
+
+    .social_icons a i
+    {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 17px;
+    }
+
+    .copyright h3
+    {
+        font-size: 17px;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width: 450px)
+{
+    html
+    {
+        font-size: 45%;
+    }
+
+    #home .slide .content h3
+    {
+        font-size: 6rem;
+    }
+
+    
+    .food_preview_container .food_preview
+    {
+        width: 38rem;
+        height: 70rem;
+    }
+
+    #preview_close
+    {
+        font-size: 28px;
+        top: 10px;
+        right: 30px;
+        color: #222;
+
+    }
+
+}
